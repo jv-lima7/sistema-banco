@@ -26,6 +26,7 @@ public class SistemaBanco {
             System.out.println("2 - Depositar");
             System.out.println("3 - Sacar");
             System.out.println("4 - Exibir dados");
+            System.out.println("5 - Sair");
             System.out.print("\nEscolha uma opção: ");
             op = sys.nextInt();
             

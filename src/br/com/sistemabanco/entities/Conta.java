@@ -18,6 +18,7 @@ public class Conta {
     public void setTitularConta(String titularConta){
         this.titularConta = titularConta;
     }
+
     public void depositar(double valor) {
         if (valor > 0) {
         saldo += valor;
@@ -26,7 +27,6 @@ public class Conta {
         System.out.println("Valor inválido!");
         }
     }
-    
     public void sacar(double valor) {
         if (valor <= 0) {
         System.out.println("Valor inválido!");
@@ -36,6 +36,7 @@ public class Conta {
             System.out.println("Saldo insuficiente!");
         }
     }
+
     public double getSaldo() {
         return saldo;
     }
